@@ -1,0 +1,265 @@
+body{
+    background-image: url(BG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+}
+
+/* MENU */
+#menuContainer{
+    /* border-style: solid; */
+    position: fixed;
+    width: 80vh;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80vh;
+    margin-top: -7.4vh;
+    z-index: 1;
+}
+#menuBox{
+    background-color: rgb(128, 0, 0);
+    backdrop-filter: blur(10px);
+    /* border-radius: 10px; */
+    width: 80vh;
+    height: 9.1vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    animation: 1s SD ease-in-out;
+}
+#planeImage{
+    width: 10vh;
+    height: 5vh;
+    margin-left: -200vh;
+    position: absolute;
+    animation: SR 10s linear infinite 4.5s;
+}
+#menuBox h1{
+    user-select: none;
+    font-size: 5vh;
+    color: white;
+    position: absolute;
+    animation: 3s SL ease-in-out;
+}
+#menuBox p{
+    user-select: none;
+    color: black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    width: 50vh;
+    margin-left: -142vh;
+    font-weight: bold;
+    font-size: larger;
+    z-index: 1;
+    animation: SRP 10s linear infinite 4.5s;
+}@keyframes SRP {
+    25%{color: purple;}
+    50%{color: gold;}
+    75%{color: rgb(0, 106, 255);}
+    100%{color: rgb(255, 0, 0);}
+    from{
+        transform: translateX(140vh);
+    }
+}
+#menuContainer button{
+    border-style: none;
+    border-radius: 10px;
+    position: absolute;
+    height: 12vh;
+    width: 10vh;
+    margin-top: -30vh;
+    cursor: pointer;
+}
+#menuContainer button p{
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 9vh;
+}
+#home{
+    margin-left: -35vh;
+    animation: moveAndFreeze 0.5s forwards 2s;
+}#aboutMe{
+    margin-left: -10vh;
+    animation: moveAndFreeze 0.5s forwards 2.5s;
+}
+#contact{
+    position: absolute;
+    margin-left: 15vh;
+    animation: moveAndFreeze 0.5s forwards 3s;
+}#extra{
+    margin-left: 40vh;
+    animation: moveAndFreeze 0.5s forwards 3.5s;
+}@keyframes moveAndFreeze {
+    0% {
+        transform: translateY(0);
+        background-color: gold;
+    }
+    100% {
+        transform: translateY(17vh); /* Adjust the final position as needed */
+    }
+}
+
+/* UM BANNER CONTAINER */
+#bannerContainer{
+    /* border-style: solid; */
+    width: 60vh;
+    height: 15vh;
+    position: fixed;
+    z-index: 1;
+}
+#umIcon{
+    width: 18vh;
+    height: 18vh;
+    position: absolute;
+    margin-top: -1.3vh;
+    margin-left: -0.8vh;
+    z-index: 1;
+    animation: SRL 1s ease-in-out;
+}
+#umBanner{
+    user-select: none;
+    background-color: rgb(128, 0, 0,0.8);
+    overflow: hidden;
+    width: 50%;
+    height: 60%;
+    backdrop-filter: blur(10px);
+    margin-left: 13vh;
+    margin-top: 3vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: SL 2s ease-in-out;
+}
+#umBanner p{
+    font-weight: bold;
+    font-size: 90%;
+    color: white;
+    margin-left: 1.5vh;
+    position: absolute;
+    animation: SL 3s ease-in-out;
+}
+
+/* Cards */
+#Row{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}#Row p{
+    font-weight: bold; 
+    font-size: 200%;
+    margin-top: 100%;
+    color: white;
+}.Card{
+    border-style: solid;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 20%;
+    height: 50%;
+    display: flex;
+    position: absolute;
+}#proj0{
+    margin-left: -50%;
+}#proj1{
+    margin-left: 0;
+}#proj2{
+    margin-left: 50%;
+}
+.Card0{
+    border-style: solid;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    width: 20%;
+    height: 50%;
+    margin-top: 60%;
+    display: flex;
+    position: absolute;
+}#proj3{
+    margin-left: -50%;
+}#proj4{
+    margin-left: 0;
+}#proj5{
+    margin-left: 50%;
+}.Card button{
+    border-style: none;
+    border-radius: 30px;
+    background-color: maroon;
+    color: gold;
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 35vh;
+    margin-left: 10%;
+    cursor: pointer;
+}.Card0 button{
+    border-style: none;
+    border-radius: 30px;
+    background-color: maroon;
+    color: gold;
+    width: 80%;
+    height: 20%;
+    position: absolute;
+    font-weight: bold;
+    font-size: 100%;
+    margin-top: 35vh;
+    margin-left: 10%;
+    cursor: pointer;
+}.Card h1{
+    color: white;
+    margin-top: 50%;
+    margin-left: 10%;
+}.Card0 h1{
+    color: white;
+    margin-top: 50%;
+    margin-left: 10%;
+}
+
+/* Hover */
+#menuContainer button:hover{
+    border-radius: 0%;
+    background-color: gold;
+    color: maroon;
+    margin-top: -18vh;
+}
+
+/* Animation */
+@keyframes SRL {
+    from{
+        transform: rotate(360deg) translateX(-100vh);
+    }
+}
+@keyframes SL {
+    from{
+        transform: translateX(-100vh);
+    }
+}
+@keyframes SR {
+    from{
+        transform: translateX(140vh);
+    }
+}
+@keyframes SD {
+    from{
+        transform: translateY(-40vh);
+    }
+}
+@keyframes SU {
+    from{
+        transform: translateY(40vh);
+    }
+}

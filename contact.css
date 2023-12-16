@@ -1,0 +1,124 @@
+body{
+    background-image: url(BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+}
+
+#image-holder{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 210vh;
+    height: 30vh;
+    width: 30vh;
+    animation: Down 0.5s ease-in-out;
+}
+#image-holder img{
+    height: 30vh;
+    width: 30vh;
+    animation: upSlide 1s ease-in-out;
+}
+
+#row1{
+    /* border-style: solid;
+    border-color: black; */
+    position: absolute;
+    display: flex;
+    margin-top: 124vh;
+    margin-left: 50vh;
+    height: 70vh;
+    width: 371vh;
+}
+.card{
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    margin-left: 5vh;
+    height: 50vh;
+    width: 50vh;
+} .card p{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 17.5vh;
+    position: absolute;
+    margin-top: 25vh;
+}
+#i0{
+
+margin-left: 184vh;
+margin-top: 10vh;
+animation: rightSlide 1s ease-in-out;
+
+}
+#i1{
+    margin-top: 10vh;
+    animation: upSlide 1s ease-in-out;
+
+}
+#i2{
+    margin-top: 10vh;
+    animation: leftSlide 1s ease-in-out;
+
+}
+#iconimg{
+    width: 12vh;
+    height: 12vh;
+    margin-left: 18vh;
+    margin-top: 5vh;
+}
+
+#a1{
+    border-style: none;
+    border-radius: 30px;
+    margin-top: 30vh;
+    margin-left: -16vh;
+    width: 20vh;
+    height: 8vh;
+    font-size: 20px;
+}
+
+#Back{
+    border-style: none;
+    border-radius: 30px;
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    height: 8vh;
+    width: 20vh;
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 25vh;
+    animation: rightSlide 1s linear;
+}
+#Back:hover{
+    cursor: pointer;
+}
+#a1:hover{
+    cursor: pointer;
+}
+
+/* Animation */
+@keyframes Down {
+    from{transform: translateY(-60vh);}
+}
+@keyframes upSlide {
+    from{transform: translateY(80vh);}
+}
+@keyframes leftSlide {
+    from{transform: translateX(60vh);}
+}
+@keyframes rightSlide {
+    from{transform: translateX(-200vh);}
+}
