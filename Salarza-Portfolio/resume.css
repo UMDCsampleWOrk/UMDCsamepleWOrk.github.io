@@ -1,0 +1,100 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHA3LPV-OzdzsXkwd9g5DyesaOBE8-RdF96Q&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+.name{
+    border-style: solid;
+    border-color: black;
+    text-align: center;
+    width: 280px;
+    background-color: azure;
+    margin-left: 80px;
+    padding-right: 1%;
+    padding-left: 1%;
+    
+    
+
+}
+.contact{
+    border-style: solid;
+    border-color: black;
+    width: 293px;
+    text-align: left;
+    padding-left: 1%;
+    margin-left: 80px;
+    height: 360px;
+    background-color: azure;
+
+
+}
+.bobi{
+    text-align: center;
+    font-style: italic;
+
+}
+.bobi2{
+    font-style: italic;
+    
+}
+.bobi3{
+    color: rgb(0, 0, 0);
+}
+.bobi4{
+    color: rgb(0, 0, 0);
+}
+.aj{
+    color: rgb(0, 0, 0);
+}
+.aj2{
+    color: rgb(0, 0, 0);
+}
+.aj3{
+    color: rgb(0, 0, 0);
+}
+.aj4{
+    color: rgb(0, 0, 0);
+}
+.limuel{
+    color: rgba(0, 0, 0, 0.918);
+}
+.lim{
+    border-style: solid;
+    margin-left: 300px;
+    width: 700px;
+    position: absolute;
+    text-align: center;
+    top: 2px;
+    height: 690px;
+    border-color: rgb(5, 1, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+    padding: 10px;
+    
+
+    
+}
+.limuelb{
+    border-bottom: solid;
+    border-color: rgb(0, 0, 0);
+}
+.jane{
+    color: rgb(0, 0, 0);
+}
+.jane4{
+    border-top: solid;
+    color: black;
+}
+.asthrel{
+    border-bottom: solid;
+    color: rgb(0, 0, 0);
+}
+.jane2{
+    color: black;
+}
+.ger{
+    color: black;
+}
+
